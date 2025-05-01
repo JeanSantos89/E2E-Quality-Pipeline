@@ -1,6 +1,6 @@
 Funcionalidades a cobrir:
-    login - parcialmente feito
-    logout - sequência básica de login-logout testada
+    login - feito
+    logout - feito
     busca de produtos
     filtragem
     página de listagem de produtos

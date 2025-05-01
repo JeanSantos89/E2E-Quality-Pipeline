@@ -2,7 +2,7 @@ from playwright.sync_api import Page
 import pytest
 from helpers import script_login, script_logout
 
-def test_loginUser(page: Page):
+def test_logout(page: Page):
     script_login(page)
     script_logout(page)
     try:
