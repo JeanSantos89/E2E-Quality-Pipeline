@@ -31,7 +31,7 @@ Ao inserir credenciais inválidas e clicar no botão de login, o erro deveria us
 A página apresenta a afirmação de forma incorreta "Epic sadface: ".
 
 **Attachments:**
-- Screenshot do erro de digitação![bug_report-1.png](..\playwright_tests\bugs_images\bug_report-1.png)
+- Screenshot do erro de digitação![bug_report-1.png](..playwright_tests/bugs_images/bug_report-1.png)
 
 **Workaround (if any):**  
 Nenhum
