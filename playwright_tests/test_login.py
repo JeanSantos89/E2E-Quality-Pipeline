@@ -1,13 +1,9 @@
 from playwright.sync_api import Page
 import pytest
+from helpers import script_login
 
-def test_loginUser(page: Page):
-    page.goto('https://www.saucedemo.com/')
-    page.wait_for_selector('input[id="user-name"]').click() # Seleciona campo login
-    page.wait_for_selector('input[id="user-name"]').type("standard_user") # Adiciona login
-    page.wait_for_selector('input[id="password"]').type("secret_sauce") # Adiciona Senha
-    page.wait_for_selector('input[data-test="login-button"]').click() # Clica em login
-
+def test_fazerLogin(page: Page):
+    script_login(page)
     try:
         page.wait_for_selector('input[data-test="login-button"]', state='detached', timeout=2000)
     except:
