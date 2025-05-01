@@ -1,9 +1,10 @@
-**Title:** Descrição do erro em inglês incorreta
+**Title:** Descrição de erro de login
 
 **ID:** BUG-001
 
 **Reported By:** Jeanderson Alves dos Santos
 **Date:** 01/05/2025
+
 **Environment:**
 - **Operating System:** Windows 11 
 - **Browser:** Chrome 130.0.6723.92
