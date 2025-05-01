@@ -10,7 +10,7 @@
 - **Browser:** Chrome 130.0.6723.92
 - **Application Version:** 24H2
 
-**Severity:** Baixa 
+**Severity:** Baixa  
 **Priority:** P3 (Baixo)
 
 **Description:**  
