@@ -13,17 +13,5 @@ def script_logout(page: Page):
     page.wait_for_selector('a[id="logout_sidebar_link"]').click() # Clica em Logout
 
 def script_filtro(page: Page):
-    #dropdown = page.query_selector('select[class="product_sort_container"]') # Armazena opções
     dropdown = page.query_selector('select[data-test="product-sort-container"]')
     dropdown.select_option(label="Price (low to high)") # Seleciona opção dentro do filtro
-    time.sleep(2)
-
-
-
-
-
-#select[data-test='product-sort-container']
-#select[data-test="product-sort-container"]
-
-   # product-sort-container
-

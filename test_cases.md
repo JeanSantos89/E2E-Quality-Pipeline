@@ -1,7 +1,5 @@
 | ID   | Test Case                          | Descrição                                | Resultado Esperado                      |
 |------|------------------------------------|------------------------------------------|-----------------------------------------|
 | TC01 | Login válido                       | Login com dados válidos                  | Redireciona para pagina principal       |
-| TC02 | Login inválido                     | Login com dados inválidos                | Texto de erro de credenciais incorretas |
-| TC03 | Logout                             | Logar e deslogar                         | Deslogar com sucesso                    |
-| TC04 | Registro com email já existente    | Tentar registrar com email existente     | Mensagem de erro: "Email já registrado" |
-| TC05 | Informações dos produtos           | Entrar no primeiro produto e ver info.   | Presença das informações                |
+| TC02 | Logout                             | Logar e deslogar                         | Deslogar com sucesso                    |
+| TC03 | Funcionalidade de Filtro           | Logar, filtrar e observar funcionamento  | Responsividade total                    |

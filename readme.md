@@ -1,12 +1,9 @@
-Funcionalidades a cobrir:
-    login - feito
-    logout - feito
-    busca de produtos
-    filtragem
-    página de listagem de produtos
-    página de detalhes do produto
-    carrinho
-    checkout
+**Objetivo:** Criar uma estratégia de testes para esta aplicação de e-commerce: https://www.saucedemo.com/
 
-Site:
-    https://www.saucedemo.com/
+**Configuração do Playwright e Pytest**:
+pip install pytest
+pip install playwright
+pip install pytest-playwright
+
+
+**Funcionalidades a Cobrir:** [test_cases.md](test_cases.md)
