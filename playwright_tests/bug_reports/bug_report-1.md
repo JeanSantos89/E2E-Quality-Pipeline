@@ -19,7 +19,7 @@ Quando um usuário adiciona credenciais incorretas, mensagem de erro não está 
 1. Abrir o navegador (https://www.saucedemo.com/)
 2. Digitar login e senha inválidos.
 3. Clicar no botão de login.
-4. Observar a mensagem de erro:
+4. Observar a mensagem de erro
 ```
 Epic sadface: Username and password do not match any user in this service.
 ```
