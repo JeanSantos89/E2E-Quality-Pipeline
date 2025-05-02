@@ -35,4 +35,4 @@ A página apresenta a afirmação de forma incorreta "Epic sadface: ".
 - Screenshot do erro de digitação![bug_report-1.png](C:\Users\Study\Documents\qa-tech-challenge\playwright_tests\bugs_images\bug_report-1.png)
 
 **Workaround (if any):**  
-Nenhum
+Nenhum.

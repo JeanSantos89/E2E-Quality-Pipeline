@@ -1,6 +1,6 @@
 **Title:** Interação de filtro
 
-**ID:** BUG-001
+**ID:** BUG-002
 
 **Reported By:** Jeanderson Alves dos Santos
 
