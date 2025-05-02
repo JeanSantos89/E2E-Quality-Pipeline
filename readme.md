@@ -1,4 +1,4 @@
-**Objetivo:** Criar uma estratégia de testes e bug hunting para esta aplicação de e-commerce: https://www.saucedemo.com/
+**Objetivo:** Criar uma estratégia de testes, bug hunting e utilizaar CI/CD (Github Actions) para esta aplicação de e-commerce: https://www.saucedemo.com/.
 
 **Configuração do Playwright e Pytest**:
 - pip install pytest
