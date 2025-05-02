@@ -9,4 +9,5 @@
 
 
 **Funcionalidades a Cobrir:** [test_cases.md](test_cases.md)
+
 **Bugs encontrados:** [bug_reports/](bug_reports)
