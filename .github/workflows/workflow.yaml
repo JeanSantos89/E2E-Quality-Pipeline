@@ -1,4 +1,4 @@
-name: Continuous Integration
+name: Integração - Github Actions
 
 on: [pull_request, push]
 
