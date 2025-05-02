@@ -43,3 +43,4 @@ Test Cases descritos seguindo a gramática e estrutura da linguagem **Gherkin**,
 - **Dado** que o usuário esteja logado  
 - **Quando** acessar a lista de produtos  
 - **Então** pelo menos um produto deve exibir a descrição preenchida
+
