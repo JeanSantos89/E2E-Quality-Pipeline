@@ -25,7 +25,7 @@ Test Cases descritos seguindo a gramática e estrutura da linguagem **Gherkin**,
 - **Quando** aplicar um filtro na lista de produtos  
 - **Então** os produtos devem ser reorganizados corretamente
 
-###  Cenário: TC04 - Adicionar itens ao carrinho
+###  Test Case: TC04 - Adicionar itens ao carrinho
 - **Dado** que o usuário esteja logado  
 - **Quando** selecionar produtos e adicioná-los ao carrinho  
 - **Então** os itens devem aparecer no carrinho corretamente
