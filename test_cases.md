@@ -6,7 +6,7 @@ Test Cases descritos seguindo a gramática e estrutura da linguagem **Gherkin**,
 
 ## 🔐 Funcionalidade: Login e Sessão
 
-###  Cenário: TC01 - Login válido
+###  Test Case: TC01 - Login válido
 - **Dado** que o usuário esteja na página de login  
 - **Quando** preencher com dados válidos e clicar em login  
 - **Então** deve ser redirecionado para a página principal
