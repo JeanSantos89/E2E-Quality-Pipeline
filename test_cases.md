@@ -30,7 +30,7 @@ Test Cases descritos seguindo a gramática e estrutura da linguagem **Gherkin**,
 - **Quando** selecionar produtos e adicioná-los ao carrinho  
 - **Então** os itens devem aparecer no carrinho corretamente
 
-###  Cenário: TC05 - Checkout
+###  Test Case: TC05 - Checkout
 - **Dado** que o usuário tenha itens no carrinho  
 - **Quando** clicar em checkout e preencher os dados necessários  
 - **Então** o checkout deve ser concluído com os itens selecionados
@@ -39,7 +39,7 @@ Test Cases descritos seguindo a gramática e estrutura da linguagem **Gherkin**,
 
 ## 🧾 Funcionalidade: Validação de Conteúdo
 
-###  Cenário: TC06 - Descrição dos produtos
+###  Test Case: TC06 - Descrição dos produtos
 - **Dado** que o usuário esteja logado  
 - **Quando** acessar a lista de produtos  
 - **Então** pelo menos um produto deve exibir a descrição preenchida
