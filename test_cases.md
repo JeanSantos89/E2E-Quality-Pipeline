@@ -11,7 +11,7 @@ Test Cases descritos seguindo a gramática e estrutura da linguagem **Gherkin**,
 - **Quando** preencher com dados válidos e clicar em login  
 - **Então** deve ser redirecionado para a página principal
 
-###  Cenário: TC02 - Logout
+###  Test Case: TC02 - Logout
 - **Dado** que o usuário esteja logado  
 - **Quando** clicar em logout  
 - **Então** deve ser deslogado com sucesso
