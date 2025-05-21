@@ -20,7 +20,7 @@ Test Cases descritos seguindo a gramática e estrutura da linguagem **Gherkin**,
 
 ## 🧭 Funcionalidade: Funcionalidades da Página
 
-###  Cenário: TC03 - Funcionalidade de Filtro
+###  Test Case: TC03 - Funcionalidade de Filtro
 - **Dado** que o usuário esteja logado  
 - **Quando** aplicar um filtro na lista de produtos  
 - **Então** os produtos devem ser reorganizados corretamente
