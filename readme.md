@@ -31,3 +31,5 @@ Projeto de automação de testes E2E para uma aplicação de e-commerce (https:/
 **⌛ Expansão contínua:**
 - ➡️ Incrementando novos cenários de teste, novos fluxos críticos e realizando bug hunting para fortalecer a cobertura.
 
+**⚠️ LINK JIRA PARA VISUALIZAÇÃO BÁSICA**
+- https://jeansaantos89.atlassian.net/jira/dashboards/10001?maximized=10004
