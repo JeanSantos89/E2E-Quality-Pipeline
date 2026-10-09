@@ -8,4 +8,22 @@ Projeto de automação de testes E2E para uma aplicação de e-commerce (https:/
 - Relatórios de bugs encontrados, estruturados com detalhes (ID, descrição, ambiente, evidências) no diretório bug_reports/.
 = Pipeline básico de execução via GitHub Actions já configurado para rodar os testes automaticamente.
 
+**🔍 Gate de qualidade dos testes (`assert-quality-audit`):**
 
+O gate `e2e-ui-tests` prova que os testes rodam e passam. Mas passar não é a mesma
+coisa que provar algo: um `def test_*` sem nenhum `assert`, `pytest.fail` ou `raise`
+no corpo passa sempre, mesmo que a funcionalidade esteja quebrada - é um "verde
+mentiroso". O mesmo vale pra uma asserção tautológica, tipo `assert True` ou
+`assert x == x`, que nunca falha.
+
+O job `assert-quality-audit` roda `scripts/audit_test_quality.py`, um script que usa
+só a lib `ast` da stdlib (sem instalar nada, sem browser) pra escanear
+`playwright_tests/test_*.py` e falhar o CI se achar:
+- uma função de teste sem nenhuma verificação própria e sem chamar um helper que já
+  verifica por dentro (este repo verifica com `pytest.fail()`/`raise`, não com
+  `assert` cru - o script reconhece as duas formas como prova válida);
+- `assert True`, `assert False` literal, ou `assert X == X` com os dois lados
+  idênticos.
+
+É um gate independente do `e2e-ui-tests`: não precisa de Playwright instalado, roda
+em segundos, e pega um tipo de problema que a suíte passando não pega sozinha.

@@ -25,3 +25,20 @@ jobs:
 
       - name: Executar testes
         run: pytest playwright_tests -v
+
+  # Gate independente: audita os PRÓPRIOS testes Python (não roda nada, não precisa de browser).
+  # Pega "verde mentiroso": teste sem nenhuma verificação ou assert tautológico.
+  assert-quality-audit:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout do repositório
+        uses: actions/checkout@v3
+
+      - name: Configurar Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Auditar qualidade dos testes (ast, sem dependência nova)
+        run: python scripts/audit_test_quality.py
